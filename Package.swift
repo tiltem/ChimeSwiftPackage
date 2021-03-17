@@ -8,7 +8,8 @@ let package = Package(
         .tvOS(.v13)
     ],
     products: [
-        .library(name: "AmazonChime", targets: ["ChimeSDK", "ChimeSDKMedia"])
+        .library(name: "ChimeSDK", targets: ["ChimeSDK"]),
+        .library(name: "ChimeSDKMedia", targets: ["ChimeSDKMedia"])
     ],
     targets: [
         .binaryTarget(name: "ChimeSDK",
