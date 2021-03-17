@@ -1,1 +1,1 @@
-# ChimeSPM
+# ChimeSwiftPackage
