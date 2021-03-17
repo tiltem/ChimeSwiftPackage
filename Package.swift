@@ -8,14 +8,14 @@ let package = Package(
         .tvOS(.v13)
     ],
     products: [
-        .library(name: "AmazonChime", targets: ["AmazonChimeSDK", "AmazonChimeSDKMedia"])
+        .library(name: "AmazonChime", targets: ["ChimeSDK", "ChimeSDKMedia"])
     ],
     targets: [
-        .binaryTarget(name: "AmazonChimeSDK",
-                      url: "https://github.com/tiltem/ChimeSwiftPackage/releases/download/0.16.1/AmazonChimeSDK.xcframework.zip",
-                      checksum: "aff74e67a5f5be7bac52ba67806c7b590b2ba5900a8c102f058a8c1ded3d9f9b"),
-        .binaryTarget(name: "AmazonChimeSDKMedia",
-                      url: "https://github.com/tiltem/ChimeSwiftPackage/releases/download/0.16.1/AmazonChimeSDKMedia.xcframework.zip",
-                      checksum: "59e768e46c574c546d332bb582cbbbd036bbd77ed2a7dd3fa040984f959f93c5")
+        .binaryTarget(name: "ChimeSDK",
+                      url: "https://github.com/tiltem/ChimeSwiftPackage/releases/download/0.16.1/ChimeSDK.xcframework.zip",
+                      checksum: "af072b7523e207cc90b7042ec3efb2e18a0d2d82f947d7883414b15890e15cca"),
+        .binaryTarget(name: "ChimeSDKMedia",
+                      url: "https://github.com/tiltem/ChimeSwiftPackage/releases/download/0.16.1/ChimeSDKMedia.xcframework.zip",
+                      checksum: "290997343d8cdab8023c61c9b920a1c08c5bc09b6cd302381b16231724aa3019")
     ]
 )
